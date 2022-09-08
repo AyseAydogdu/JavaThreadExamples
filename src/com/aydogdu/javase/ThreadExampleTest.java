@@ -11,7 +11,7 @@ public class ThreadExampleTest {
         thread.start();
         ThreadExampleTwo threadExampleTwo = new ThreadExampleTwo();
         Thread thread2 = new Thread(threadExampleTwo);
-        thread2.setPriority(10);
+        thread2.setPriority(9);
         thread2.start();
     }
 }
